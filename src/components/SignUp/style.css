@@ -1,0 +1,21 @@
+.signup{
+    background-color: #6366f1;
+}
+.signup__name {
+	display: flex;
+	flex-flow: row nowrap;
+	width: 100%;
+}
+.signup_container > form input {
+	margin: 0.35rem 0.25rem;
+	width: 100%;
+}
+.signup_container h1{
+    margin: 0; 
+    text-align: center;
+}
+.signup_container p{
+    margin: 0;
+    color: gray;
+	font-weight: 600;
+}
