@@ -5,10 +5,11 @@ import { StylesProvider } from '@material-ui/core/styles';
 
 import SignUp from '../SignUp';
 import Login from '../Login';
+import Group from '../Group';
 const routes = [
 	{ path: '/signup', component: SignUp },
 	{ path: '/login', component: Login },
-	/* { path: '/room', component: Room }, */
+	{ path: '/group', component: Group },
 	{ path: '/', component: Login }
 ];
 function App() {

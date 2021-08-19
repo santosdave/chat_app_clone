@@ -2,6 +2,7 @@
   text-align: center;
 }.app {
 	height: 100vh;
+	
 }
 .MuiSvgIcon-root {
 	font-size: 1.25rem;
@@ -40,16 +41,17 @@ textarea {
 }
 .auth__wrapper {
 	height: 100vh;
+	
 	display: flex;
 	place-items: center;
 	justify-content: center;
-	background-color: #023047;
+	background-color: #6366f1;
 }
 .auth__wrapper .area__wrapper {
 	background-color: #f1faee;
 	text-align: center;
 	padding: 5rem 3rem;
-	width: 25rem;
+	width: 20rem;
 	min-height: 15rem;
 	border-radius: 0.75rem;
 	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
