@@ -30,6 +30,7 @@ function Chat() {
                             </div>
                         
                     </div>
+                    
                 </Scrollbar>
             </div>
             <ChatFooter/>

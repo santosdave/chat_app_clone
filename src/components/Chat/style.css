@@ -1,9 +1,12 @@
 .chat {
 	flex-grow: 10;
+	
+	
 }
 .chat_body {
 	background-color: #f1faee;
 	height: calc(100vh - 7.3rem);
+	
 }
 .chat_main {
 	padding: 0 1rem 1.75rem;

@@ -14,6 +14,56 @@ function GroupDetails() {
             </Avatar>
             <h1>Group1</h1>
             <p>You were added to the group</p>
+            <List>
+                <ListItem>
+                    <ListItemIcon>
+                        <PhotoIcon/>
+                    </ListItemIcon>
+                    <ListItemText primary={"Change Group Photo"} />
+                </ListItem>
+                <ListItem>
+                    <ListItemIcon>
+                        <MeetingRoomIcon />
+                    </ListItemIcon>
+                    <ListItemText primary={'Leave Group'} />
+                </ListItem>
+                <ListItem>
+                    <ListItemIcon>
+                        <DeleteIcon />
+                    </ListItemIcon>
+                    <ListItemText primary={'Delete Group'} />
+                </ListItem>
+            </List>
+            <List>
+                <ListItem>
+                    <ListItemAvatar>
+                        <Avatar>
+                            <PersonIcon/>
+                        </Avatar>
+                    </ListItemAvatar>
+                    <ListItemText primary={"Santos Dave"} />
+                </ListItem>
+            </List>
+            <List>
+                <ListItem>
+                    <ListItemAvatar>
+                        <Avatar>
+                            <PersonIcon/>
+                        </Avatar>
+                    </ListItemAvatar>
+                    <ListItemText primary={"Dave Santos"} />
+                </ListItem>
+            </List>
+            <List>
+                <ListItem>
+                    <ListItemAvatar>
+                        <Avatar>
+                            <PersonIcon/>
+                        </Avatar>
+                    </ListItemAvatar>
+                    <ListItemText primary={"Santos Sonjour"} />
+                </ListItem>
+            </List>
         </div>
     )
 }
