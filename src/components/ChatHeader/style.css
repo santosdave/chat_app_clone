@@ -1,0 +1,22 @@
+.chat_header{
+    display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0.35rem;
+	border-bottom: 1px solid #cecece;
+	background-color: #fff;
+}
+.chat_header_info {
+	flex: 1;
+	padding-left: 1rem;
+}
+.chat_header_info > h3 {
+	font-weight: 700;
+	margin: 0;
+}
+.chat_header_info > p {
+	color: gray;
+	margin: 0 0 0.35rem;
+	font-size: 0.8rem;
+}

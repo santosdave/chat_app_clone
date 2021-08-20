@@ -1,5 +1,14 @@
 .sidebar{
     flex-grow: 1;
-    background-color:#6366f1;
+    background-color:#00bfa5;
     color: #fff;
+}
+.sidebar_scrollbar {
+	height: 100%;
+	width: 100%;
+    background-color:#6366f1;
+}
+.sidebar_groups {
+	height: calc(100vh - 3.67rem);
+    
 }

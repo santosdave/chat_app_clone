@@ -1,0 +1,19 @@
+.group_details{
+    flex-grow: 1;
+	text-align: center;
+	padding: 5rem 0;
+	background-color: #6366f1;
+	border: 1px solid #cecece;
+}
+
+.group_details .avatar{
+    margin:auto;
+    
+}
+.group_details h1{
+    margin: 1rem 0 0;
+	font-weight: 700;
+}
+.group_details p{
+    margin: 0.25rem 0 1rem;
+}

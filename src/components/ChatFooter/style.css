@@ -1,0 +1,29 @@
+.chat_footer{
+    display: flex;
+    flex-flow:row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 3.5rem;
+    border-top: 1px solid #cecece;
+	background-color: #6366f1;
+}
+.chat_footer form{
+    flex: 1;
+    display: flex;
+    margin-left: 0.5rem;
+}
+.chat_footer> form>input{
+    flex: 1;
+    color:gray ;
+}
+.chat_footer>form>button{
+    display:none;
+}
+.chat_footer>.MuiButtonBase-root {
+	margin: -0.25rem 0.25rem 0;
+    color:green;
+}
+.chat_footer> .MuiButtonBase-root .MuiSvgIcon-root {
+	transform: rotate(-45deg);
+    
+}
